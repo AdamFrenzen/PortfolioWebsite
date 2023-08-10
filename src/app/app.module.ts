@@ -7,7 +7,8 @@ import { BioComponent } from './bio/bio.component';
 import { SkillsComponent } from './skills/skills.component';
 import {NgOptimizedImage} from "@angular/common";
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HeaderComponent } from './header/header.component'
+import { HeaderComponent } from './header/header.component';
+import { GreatWaveComponent } from './great-wave/great-wave.component'
 
 
 
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component'
     AppComponent,
     BioComponent,
     SkillsComponent,
-    HeaderComponent
+    HeaderComponent,
+    GreatWaveComponent
   ],
   imports: [
     BrowserModule,

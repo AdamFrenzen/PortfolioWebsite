@@ -1,1 +1,10 @@
 @font-face { font-family: Name; src: url('src/assets/BebasNeue-Regular.ttf'); }
+
+.name {
+  font-size: max(6vw, 10px);
+  font-family: Name, sans-serif;
+}
+.title {
+  font-size: max(5vw, 10px);
+  font-family: Name, sans-serif;
+}

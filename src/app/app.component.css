@@ -1,0 +1,17 @@
+body {
+  width: 100vw;
+  max-width: 1920px;
+}
+
+html {
+  background-color: lightblue;
+  display: table;
+  margin: auto;
+}
+
+body {
+  width: 100vw;
+  /*max-width: 1920px;*/
+  display: table-cell;
+  vertical-align: middle;
+}
