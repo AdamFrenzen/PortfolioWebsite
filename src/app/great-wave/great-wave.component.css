@@ -1,42 +1,33 @@
 .parent {
   position: relative;
-
+  transform: translateX(-100%);
   margin-left: 50%;
 
   top: 0;
   left: 0;
 }
 
-/*.thing {*/
-/*  margin-left: 50%;*/
-/*  transform: translateX(-50%);*/
-/*  max-width: 200vw;*/
-/*}*/
-
 .image1, .image2, .image3, .image4 {
-
   max-width: 100vw;
-
   position: absolute;
 }
+
 
 .image1 {
   position: relative;
   top: 0px;
   left: 0;
 }
-
 .image2 {
+   top: 0px;
+   left: 0px;
+ }
+.image3 {
   top: -30px;
   left: 0px;
 }
-
-.image3 {
-  top: 0px;
-  left: 0px;
-}
-
 .image4 {
   top: -30px;
   left: 0px;
 }
+

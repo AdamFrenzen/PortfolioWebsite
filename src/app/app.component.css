@@ -2,14 +2,15 @@ body {
   width: 100vw;
   max-width: 1920px;
 }
-
 html {
-  background-color: lightblue;
+  background-color: blue;
   display: table;
   margin: auto;
+  overflow-y: scroll;
 }
 
 body {
+  background-color: white;
   width: 100vw;
   /*max-width: 1920px;*/
   display: table-cell;
